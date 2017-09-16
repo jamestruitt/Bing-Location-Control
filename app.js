@@ -57,7 +57,7 @@ bot.dialog("/", [
 
             var formattedAddress =
 
-                session.send("Thanks, Let's Go There " + getFormattedAddressFromPlace(place, ", "));
+                session.send("Thanks, Let's go there " + getFormattedAddressFromPlace(place, ", "));
 
         }
 

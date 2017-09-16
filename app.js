@@ -31,7 +31,7 @@ bot.dialog("/", [
 
         var options = {
 
-            prompt: "Where should I ship your order?",
+            prompt: "Where should I would you like to go?",
             useNativeControl: true,
             reverseGeocode: true,
             skipFavorites: false,
